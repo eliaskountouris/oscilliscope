@@ -1,0 +1,167 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid b55621d4-2d98-456b-a894-a8f42fac2877)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 64.77 60.96) (size 41.91 35.56) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 36abd183-3a4b-4c01-82d4-6c975be27283)
+    (property "Sheetname" "inputMuxes" (at 64.77 60.2484 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pages/inputMuxes.kicad_sch" (at 64.77 97.1046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oscilliscope"
+        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 205.74 110.49) (size 44.45 19.05) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 3ecceb04-c4f7-4b77-8edc-cdf75c85b9a2)
+    (property "Sheetname" "fpga" (at 205.74 109.7784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pages/fpga.kicad_sch" (at 205.74 130.1246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oscilliscope"
+        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 57.15 130.81) (size 44.45 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 72d4e7c1-6532-4a3f-9e33-d9e0fdd5b54a)
+    (property "Sheetname" "pmu" (at 57.15 130.0984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pages/pmu.kicad_sch" (at 57.15 152.9846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oscilliscope"
+        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "6"))
+      )
+    )
+  )
+
+  (sheet (at 148.59 59.69) (size 46.99 31.75) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 74841751-180c-4801-b9e6-6ab8bff8db99)
+    (property "Sheetname" "mcu" (at 148.59 58.9784 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pages/mcu.kicad_sch" (at 148.59 92.0246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oscilliscope"
+        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "3"))
+      )
+    )
+  )
+
+  (sheet (at 173.99 24.13) (size 39.37 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 93c18ece-c7f2-4f9c-bf6e-50c389777600)
+    (property "Sheetname" "z_converter" (at 173.99 23.4184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pages/z_converter.kicad_sch" (at 173.99 41.2246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oscilliscope"
+        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "10"))
+      )
+    )
+  )
+
+  (sheet (at 151.13 119.38) (size 30.48 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a1523a98-08c3-4fe4-962c-cc1168f83c77)
+    (property "Sheetname" "adc" (at 151.13 118.6684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pages/adc.kicad_sch" (at 151.13 142.8246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oscilliscope"
+        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "5"))
+      )
+    )
+  )
+
+  (sheet (at 218.44 50.8) (size 41.91 27.94) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid a77ba670-6605-4937-a2ce-9b3f35f3ca96)
+    (property "Sheetname" "io" (at 218.44 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pages/io.kicad_sch" (at 218.44 79.3246 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oscilliscope"
+        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "7"))
+      )
+    )
+  )
+
+  (sheet (at 92.71 29.21) (size 43.18 21.59) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid ecadb427-aff5-49be-8232-7a8c61e6699f)
+    (property "Sheetname" "usb_PD" (at 92.71 28.4984 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pages/usb_PD.kicad_sch" (at 92.71 51.3846 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oscilliscope"
+        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "8"))
+      )
+    )
+  )
+
+  (sheet (at 110.49 170.18) (size 30.48 16.51) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid fba8e93e-2f28-4cff-8c60-c8d1ff2d26f2)
+    (property "Sheetname" "preAmp" (at 110.49 169.4684 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "pages/preAmp.kicad_sch" (at 110.49 187.2746 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oscilliscope"
+        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "9"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
