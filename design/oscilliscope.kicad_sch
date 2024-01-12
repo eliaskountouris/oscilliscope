@@ -8,6 +8,23 @@
   )
 
 
+  (sheet (at 217.17 65.405) (size 33.02 22.86) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 00aa2303-1014-469f-8d06-774555f0f9fb)
+    (property "Sheetname" "usb" (at 217.17 64.6934 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "usb.kicad_sch" (at 217.17 88.8496 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "oscilliscope"
+        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "10"))
+      )
+    )
+  )
+
   (sheet (at 64.77 60.96) (size 41.91 35.56) (fields_autoplaced)
     (stroke (width 0.1524) (type solid))
     (fill (color 0 0 0 0.0000))
@@ -106,40 +123,6 @@
     (instances
       (project "oscilliscope"
         (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "5"))
-      )
-    )
-  )
-
-  (sheet (at 218.44 50.8) (size 41.91 27.94) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid a77ba670-6605-4937-a2ce-9b3f35f3ca96)
-    (property "Sheetname" "io" (at 218.44 50.0884 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "pages/io.kicad_sch" (at 218.44 79.3246 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oscilliscope"
-        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "7"))
-      )
-    )
-  )
-
-  (sheet (at 92.71 29.21) (size 43.18 21.59) (fields_autoplaced)
-    (stroke (width 0.1524) (type solid))
-    (fill (color 0 0 0 0.0000))
-    (uuid ecadb427-aff5-49be-8232-7a8c61e6699f)
-    (property "Sheetname" "usb_PD" (at 92.71 28.4984 0)
-      (effects (font (size 1.27 1.27)) (justify left bottom))
-    )
-    (property "Sheetfile" "pages/usb_PD.kicad_sch" (at 92.71 51.3846 0)
-      (effects (font (size 1.27 1.27)) (justify left top))
-    )
-    (instances
-      (project "oscilliscope"
-        (path "/b55621d4-2d98-456b-a894-a8f42fac2877" (page "8"))
       )
     )
   )

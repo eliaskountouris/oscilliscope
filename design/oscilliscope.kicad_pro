@@ -243,8 +243,13 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_footprint_libs": [
+      "oscilliscope"
+    ],
+    "pinned_symbol_libs": [
+      "oscilliscope",
+      "elias_kountouris_manifest"
+    ]
   },
   "meta": {
     "filename": "oscilliscope.kicad_pro",
@@ -348,20 +353,16 @@
       "pmu"
     ],
     [
-      "a77ba670-6605-4937-a2ce-9b3f35f3ca96",
-      "io"
-    ],
-    [
-      "ecadb427-aff5-49be-8232-7a8c61e6699f",
-      "usb_PD"
-    ],
-    [
       "fba8e93e-2f28-4cff-8c60-c8d1ff2d26f2",
       "preAmp"
     ],
     [
       "93c18ece-c7f2-4f9c-bf6e-50c389777600",
       "z_converter"
+    ],
+    [
+      "00aa2303-1014-469f-8d06-774555f0f9fb",
+      "usb"
     ]
   ],
   "text_variables": {}
